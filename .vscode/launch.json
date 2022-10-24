@@ -12,6 +12,24 @@
       "console": "integratedTerminal",
       "program": "${workspaceFolder}/codeforces/B1739.js",
       "args": ["<", "${workspaceFolder}/codeforces/input.txt"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch A467 Program",
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal",
+      "program": "${workspaceFolder}/codeforces/A467.js",
+      "args": ["<", "${workspaceFolder}/codeforces/input.txt"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch B1738 Program",
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal",
+      "program": "${workspaceFolder}/codeforces/B1738/index.js",
+      "args": ["<", "${workspaceFolder}/codeforces/B1738/input.txt"]
     }
   ]
 }
